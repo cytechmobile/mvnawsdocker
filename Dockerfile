@@ -5,6 +5,7 @@ RUN apk update && apk upgrade && \
     apk add \
         bash \
         git \
+        procps \
         openssh \
         curl \
         less \
